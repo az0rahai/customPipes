@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './capitalize.component.html',
   styleUrls: ['./capitalize.component.css']
 })
-export class CapitalizeComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+export class CapitalizeComponent {
+  text: string;
+  constructor() {
+    this.text = 'Mary had a liTTle lamB fOr the goat';
   }
+
+
 
 }

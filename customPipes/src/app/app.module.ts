@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { CapitalizeComponent } from './capitalize/capitalize.component';
+import {capitalizePipe} from "./capitalize.pipe";
 
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizeComponent
+    CapitalizeComponent,
+    capitalizePipe
   ],
   imports: [
     BrowserModule,
